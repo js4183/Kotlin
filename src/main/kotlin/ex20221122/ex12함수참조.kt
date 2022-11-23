@@ -11,5 +11,6 @@ fun main() {
     // 함수를 참조해서 변수처럼 사용해보자
     // 함수 참조를 통해서 변수처람 사용하고 싶으면
     // 변수명 뒤에 .call()
-    weather.call()
+    // weather.call() 1.1v
+    weather()
 }
