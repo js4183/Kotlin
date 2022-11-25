@@ -39,5 +39,17 @@
 <details>
     <summary>2022.11.25</summary>
     
+### Id 값
+- val tvResult = findViewById<TextView>(R.id.tvResult)
+    - tv, et, btn... + 기능명시
+    - setContentView 위로 find할 수 없음!
+    - .setTextColor(Color.BLUE) || (Color.parseColor("#ff9999"))
+    - .textSize = 40.0f -> textSize(Float) 40.0(Double)
+### btn 이벤트 
+- ![image](https://user-images.githubusercontent.com/112377313/203879292-56a76dd3-46f8-428e-9c92-f8dbf7ef2ea9.png)
+
+### img
+- TextView, button, EditText, img 기본 뷰 4가지
+- res -> drawable -> 파일이름 이미지 시작X
     
 </details>
